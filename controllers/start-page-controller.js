@@ -1,3 +1,11 @@
 module.exports.welcome = (req,res) => {
-    res.send("welcome to Medicine Tracker");
+    res.render("welcome");
+}
+
+module.exports.dashboard = (req,res) => {
+    res.render("dashboard");
+}
+
+module.exports.about = (req,res) => {
+    res.render("about");
 }
