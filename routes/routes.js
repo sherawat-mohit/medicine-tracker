@@ -12,6 +12,8 @@ router.get("/", startpage.welcome);
 
 router.get("/dashboard", startpage.dashboard);
 
+router.get("/dashboard/addmeds", dashboard.addmeds);
+
 router.get("/about", startpage.about);
 
 

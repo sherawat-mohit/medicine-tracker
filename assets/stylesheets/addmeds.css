@@ -1,0 +1,23 @@
+
+
+.add-med{
+    width: 100%;
+    padding: 0 25px;
+}
+
+.add-med form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-med form input{
+    background-color: white;
+    width: 60%;
+    line-height: 25px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
