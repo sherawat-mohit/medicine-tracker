@@ -21,7 +21,8 @@ body{
     justify-content: start;
     align-items: center;
     padding: 40px 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: rgba(255, 255, 255, 0.7) 0px 7px 29px 0px;
     border-radius: 30px;
 
 }
@@ -37,7 +38,7 @@ body{
     font-weight: 600;
     color: white;
     border: none;
-    box-shadow: rgba(0, 123, 255, 0.808) 0px 2px 8px 0px;
+    box-shadow: rgba(0, 123, 255, 0.7) 0px 2px 8px 0px;
 }
 #add-btn a{
     font-size: 16px;
@@ -75,6 +76,7 @@ body{
 }
 
 .med .name{
+    min-width: 40%;
     font-size: 18px;
     text-transform: capitalize;
 }
@@ -84,5 +86,40 @@ body{
     width: 25px;
     height: 25px;
     border: none;
-    box-shadow: rgba(0, 123, 255, 0.8) 0px 1px 4px;
+    box-shadow: rgba(0, 123, 255, 0.5) 0px 1px 4px;
+}
+
+.med .status-dropdown{
+    /* background-color: red; */
+}
+
+.med .status-dropdown select{
+    min-width: 120px;
+    max-width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.med .status-dropdown select option{
+}
+
+
+.med button{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    box-shadow: rgba(255, 0, 0, 0.5) 0px 2px 8px 0px;
+}
+
+.med button a{
+    text-decoration: none; 
+    color: white;
+    font-weight: 600;
 }

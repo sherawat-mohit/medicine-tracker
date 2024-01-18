@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/navbar.css">
+    <link rel="stylesheet" href="/stylesheets/addmeds.css">
+    <title>Dashboard</title>
 </head>
 <body>
-    <div class="add-med">
-        <form action="#" method="post">
-            <input type="text" required placeholder="Enter Medicine name :">
-            <input type="number" min="1" max="" required placeholder="Enter Medicine name :">
-            <button type="submit" id="add-btn">Add</button>
-        </form>
+    <%- include("partials/navbar") %>
+    <div class="container">
+        <div class="add-med">
+            <form>
+                <div class="form-row">
+                    <label for="fname">Medicine name:</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                <div class="form-row">
+                    <label for="fname">Medicine name:</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+              </form> 
+        </div>
     </div>
 </body>
 </html>

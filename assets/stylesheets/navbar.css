@@ -37,17 +37,18 @@ header a.logo {
 
 .navbar ul li {
     background-color: white;
-    padding: 5px 10px;
+    padding: 7px 15px;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .navbar ul li a {
-    font-size: 20px;
+    font-size: 18px;
     color: #000;
 }
 
-.navbar ul li a:hover {
-    color: #d4d4d4;
+.navbar ul li:hover a{
+    color: #393939;
 }
 
 
