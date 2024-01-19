@@ -9,12 +9,13 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
 }
 
 .add-med{
-    width: 70%;
+    width: 50%;
+    height: fit-content;
     min-height: 500px;
     padding: 0 25px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -23,6 +24,12 @@ body{
     border-radius: 30px;
     padding: 25px 20px;
     margin: 15px 0;
+
+}
+
+.add-med h1{
+    text-align: center;
+    text-decoration:underline;
 }
 
 .add-med form{
@@ -32,14 +39,22 @@ body{
     align-items: center;
 }
 
-.add-med form label{
+.add-med form .form-row{
+    width: 80%;
+    height: 35px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    margin: 10px;
 }
 
-.add-med form input{
+.add-med form .form-row label{
+    align-self: center;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+.add-med form .form-row input{
     background-color: white;
     width: 60%;
     line-height: 25px;
@@ -54,6 +69,7 @@ body{
     background-color: #007bff;
     padding: 5px 10px;
     margin-left: 20px;
+    margin-top: 20px;
     line-height: 25px;
     border-radius: 20px;
     font-size: 16px;
@@ -61,10 +77,4 @@ body{
     color: white;
     border: none;
     box-shadow: rgba(0, 123, 255, 0.7) 0px 2px 8px 0px;
-}
-#add-btn a{
-    font-size: 16px;
-    font-weight: 600;
-    color: white;
-    text-decoration: none;
 }
